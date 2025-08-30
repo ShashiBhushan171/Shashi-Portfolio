@@ -305,6 +305,32 @@ body {
   color: #777;
 }
 
+/* --------------education-------------- */
+.education {
+  padding: 80px 50px 25px 50px;
+}
+
+.edu-container {
+  display: flex;
+  justify-content: space-between; 
+  gap: 50px;                     
+}
+
+.edu-item1,
+.edu-item2 {
+  flex: 1; 
+  padding-top: 40px;
+  padding-left: 80px;  
+}
+.edu-item2{
+  padding-left: 200px;
+}
+
+.edu-item1 h4,
+.edu-item1 p,
+.edu-item2 p {
+  margin-bottom:5px;
+}
 
 /* -------------------Projects Section-------------------------*/
 .projects-section {
